@@ -74,7 +74,7 @@
     &none     &none     &kp LALT &kp LCTRL &mo RAISE   &kp SPACE  &mt RSHFT ENTER   &mo LOWER  &kp BACKSPACE  &none     &none    &none
             >;
         };
-        
+
         wow{
             bindings = <
                 &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
@@ -99,10 +99,10 @@
             // |       |        |        |        |        |        |        |  HOME  |        |  END   |        |        |
             // |       |        |        |        |        |  LGUI  |        |        |        | DELETE |        |        |        |        |
             bindings = <
-            &out OUT_TOG &bt BT_SEL 0    &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_CLR   &kp PAGE_UP   &trans    &kp UP     &trans     &kp LG(L) &trans
-            &trans       &trans          &trans       &trans       &trans       &kp CAPSLOCK &kp PAGE_DOWN &kp LEFT  &kp DOWN   &kp RIGHT  &trans    &trans
-            &trans       &trans          &trans       &trans       &trans       &trans       &trans        &trans    &trans     &trans     &trans    &trans
-            &bootloader  &studio_unlock  &trans       &trans       &trans       &trans       &trans        &trans    &kp DELETE &trans     &trans    &trans
+            &out OUT_TOG &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_CLR   &kp PAGE_UP   &trans    &kp UP     &trans     &kp LG(L) &trans
+            &trans       &trans        &trans       &trans       &trans       &kp CAPSLOCK &kp PAGE_DOWN &kp LEFT  &kp DOWN   &kp RIGHT  &trans    &trans
+            &trans       &trans        &trans       &trans       &trans       &trans       &trans        &trans    &trans     &trans     &trans    &trans
+            &trans       &trans        &trans       &trans       &trans       &trans       &trans        &trans    &kp DELETE &trans     &trans    &trans
             >;
         };
 
